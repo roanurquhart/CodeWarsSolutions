@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars.UnitTests\\CodeWars.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars.UnitTests\\CodeWars.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars.UnitTests\\CodeWars.UnitTests.csproj",
+        "projectName": "CodeWars.UnitTests",
+        "projectPath": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars.UnitTests\\CodeWars.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\rurquhart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rurquhart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sentryone.pkgs.visualstudio.com/_packaging/SentryOne/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\CodeWars.csproj": {
+                "projectPath": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\CodeWars.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\CodeWars.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\CodeWars.csproj",
+        "projectName": "CodeWars",
+        "projectPath": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\CodeWars.csproj",
+        "packagesPath": "C:\\Users\\rurquhart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rurquhart\\source\\repos\\CodeWars\\CodeWarsSolutions\\CodeWars\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rurquhart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sentryone.pkgs.visualstudio.com/_packaging/SentryOne/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
