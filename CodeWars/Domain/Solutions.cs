@@ -10,6 +10,32 @@ namespace CodeWars
     public static class Solutions
     {
 
+        public static string GetReadableTime(int seconds)
+        {
+            double hours = 0.0;
+            double minutes = 0.0;
+            double remainder = (double)seconds;
+
+            if (seconds/3600 >=1 )
+            {
+                hours = Math.Floor(((double)seconds) / 3600);
+                remainder = remainder - (hours * 3600);
+            }
+            if (seconds/60 >= 1)
+            {
+                minutes = Math.Floor(remainder / 60);
+                remainder = remainder - (minutes * 60);
+            }
+            string hrs = hours.ToString();
+            string mins = minutes.ToString();
+            string rem = Math.Floor(remainder).ToString();
+            if (hrs.Length == 1) hrs = "0" + hrs;
+            if (mins.Length == 1) mins = "0" + mins;
+            if (rem.Length == 1) rem = "0" + rem;
+            return string.Format("{0}:{1}:{2}", hrs, mins, rem);
+
+        }
+
         public static int[] FoldArray(int[] array, int runs)
         {
             if (runs == 0) return array;

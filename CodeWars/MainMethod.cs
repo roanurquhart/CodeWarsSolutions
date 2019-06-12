@@ -10,16 +10,8 @@ namespace CodeWars
 
         static void Main(string[] args)
         {
-            //var directions = Solutions.dirReduc(new Direction[] { Direction.NORTH, Direction.NORTH, Direction.NORTH, Direction.NORTH, Direction.SOUTH, Direction.SOUTH, Direction.SOUTH, Direction.SOUTH, Direction.EAST});
-            //for (int i = 0; i < directions.Length; i++)
-            //{
-            //    Console.WriteLine(directions[i]);
-            //}
-            var a = Solutions.FoldArray(new int[] { -9, 9, -8, 8, 66, 23 }, 1);
-            foreach (var i in a)
-            {
-                Console.WriteLine(i);
-            }
+
+            Console.WriteLine(Solutions.GetReadableTime(60));
 
         }
 
