@@ -8,11 +8,9 @@ namespace CodeWars
     class MainMethod
     {
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-
-            Console.WriteLine(Solutions.GetReadableTime(60));
-
+            Console.WriteLine(Solutions.IsMerge("Can we merge it? Yes, we can!", "Cawe mrgi? es, eca", "n ee tYw n!"));
         }
 
     }

@@ -10,6 +10,93 @@ namespace CodeWars
     public static class Solutions
     {
 
+        public static bool IsMerge(string s, string part1, string part2)
+        {
+            int firstStringCounter = 0;
+            int secondStringCounter = 0;
+            StringBuilder builder = new StringBuilder();
+
+            if ((part1+part2).Length > s.Length) return false;
+
+            for (var i = 0; i < s.Length; i++)
+            {
+                if (firstStringCounter < part1.Length)
+                {
+                    if (s[i].Equals(part1[firstStringCounter])) { builder.Append(part1[firstStringCounter]); firstStringCounter++; continue; }
+                    else if (secondStringCounter < part2.Length)
+                    {
+                        if (s[i].Equals(part2[secondStringCounter])) { builder.Append(part2[secondStringCounter]); secondStringCounter++; continue; }
+                        else return false;
+                    } 
+                }
+                else if (secondStringCounter < part2.Length)
+                {
+                    if (s[i].Equals(part2[secondStringCounter])) { builder.Append(part2[secondStringCounter]); secondStringCounter++; continue; }
+                    else return false;
+                }
+            }
+            if (builder.ToString().ToLower().Equals(s.ToLower()))
+            {
+                return true;
+            } else return false;
+        }
+
+        public static string DoneOrNot(int[][] board)
+        {
+            for(var i = 0; i < 9; i++)
+            {
+                Dictionary<int, int> columns = new Dictionary<int,int>();
+                for (var j = 0; j < 9; j++)
+                {
+                    if (columns.ContainsKey(board[i][j]))
+                    {
+                        return "Try again!";
+                    }
+                    columns.Add(board[i][j], 1);
+                }
+            }
+
+            for (var i = 0; i < 9; i++)
+            {
+                Dictionary<int, int> rows = new Dictionary<int, int>();
+                for (var j = 0; j < 9; j++)
+                {
+                    if (rows.ContainsKey(board[j][i]))
+                    {
+                        return "Try again!";
+                    }
+                    rows.Add(board[j][i], 1);
+                }
+            }
+            for (int s = 0; s < 9; s += 3)
+            {
+                for (int k = 0; k < 9; k += 3)
+                {
+                    Dictionary<int, int> columns = new Dictionary<int, int>();
+                    for (var i = 0+s; i < 3; i++)
+                    {
+                        for (var j = 0+k; j < 3; j++)
+                        {
+                            if (columns.ContainsKey(board[i][j]))
+                            {
+                                return "Try again!";
+                            }
+                            columns.Add(board[i][j], 1);
+                        }
+                    }
+                }
+            }
+
+            return "Finished!";
+        }
+
+        public static string sumStrings(string a, string b)
+        {
+            long one = Int64.Parse(a);
+            long two = Int64.Parse(b);
+            return $"{one+two}";
+        }
+
         public static string GetReadableTime(int seconds)
         {
             double hours = 0.0;
@@ -87,7 +174,7 @@ namespace CodeWars
             return built.ToString();
         }
 
-        public static Direction[] dirReduc(Direction[] arr)
+        public static Direction[] DirReduc(Direction[] arr)
         {
             var reverseAnswer = new Stack<Direction>();
             var finalAnswer = new Stack<Direction>();
