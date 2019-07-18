@@ -9,6 +9,11 @@ namespace CodeWars
 {
     public static class Solutions
     {
+        public int IsSolved(int[,] board)
+        {
+            for (var i = 0; i < board.Length);
+            return 0;
+        }
 
         public static bool IsMerge(string s, string part1, string part2)
         {
