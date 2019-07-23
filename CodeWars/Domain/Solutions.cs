@@ -9,10 +9,25 @@ namespace CodeWars
 {
     public static class Solutions
     {
-        public int IsSolved(int[,] board)
+
+        public static bool Scramble(string str1, string str2)
         {
-            for (var i = 0; i < board.Length);
-            return 0;
+            Dictionary<char, int> secondStringDictionary = CreateStringDictionary(str2);
+
+            return false;
+        }
+
+        private static Dictionary<char,int> CreateStringDictionary(string str2)
+        {
+            Dictionary<char, int> stringDictionary = new Dictionary<char, int>();
+            for (var i = 0; i < str2.Length; i++)
+            {
+                if (stringDictionary.ContainsKey(str2[i]))
+                    stringDictionary[str2[i]]++;
+                else
+                    stringDictionary.Add(str2[i], 1);
+            }
+            return stringDictionary;
         }
 
         public static bool IsMerge(string s, string part1, string part2)

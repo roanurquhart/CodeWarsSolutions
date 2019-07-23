@@ -1,0 +1,11 @@
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\bin\Release\netcoreapp2.2\CodeWars.deps.json
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\bin\Release\netcoreapp2.2\CodeWars.runtimeconfig.json
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\bin\Release\netcoreapp2.2\CodeWars.runtimeconfig.dev.json
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\bin\Release\netcoreapp2.2\CodeWars.dll
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\bin\Release\netcoreapp2.2\CodeWars.pdb
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.csprojAssemblyReference.cache
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.csproj.CoreCompileInputs.cache
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.AssemblyInfoInputs.cache
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.AssemblyInfo.cs
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.dll
+C:\Users\rurquhart\source\repos\CodeWars\CodeWarsSolutions\CodeWars\obj\Release\netcoreapp2.2\CodeWars.pdb
